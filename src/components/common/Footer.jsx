@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer-content text-white d-grid container'>
           <div className='footer-item'>
             <a href="#" className='navbar-brand text-white text-uppercase no-wrap d-block'>
-              cool <span>games</span>
+              Zett <span>games</span>
             </a>
             <p className='para-text'>Lorem ipsum dolor sitamt consectue adispicing duis soolici tudin ague suisomid. Nulla vullam dolor.</p>
           </div>
@@ -39,9 +39,9 @@ const Footer = () => {
 
             <form className='newsletter-form'>
               <div className='input-group d-flex align-items-stretch'>
-                <input type="text" className="input-group-field" placeholder = "Your email address" />
+                <input type="text" className="input-group-field" placeholder="Your email address" />
                 <button className='input-group-btn bg-white d-inline-flex align-items-center justify-content-center'>
-                  <AiOutlineSend size = { 18 } />
+                  <AiOutlineSend size={18} />
                 </button>
               </div>
             </form>
@@ -51,7 +51,6 @@ const Footer = () => {
 
       <div className='footer-bottom'>
         <div className='container d-flex flex-column text-center'>
-          <p className='footer-bottom-text text-green'>Copyright &copy; 2023 GeekProbin - All rights reserved.</p>
           <ul className='footer-bottom-links d-flex justif-content-center'>
             <li><a href="#" className='text-white'>Home</a></li>
             <li><a href="#" className='text-white'>Help Center</a></li>
